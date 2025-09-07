@@ -1,4 +1,5 @@
 h1 {
+  color: #322824;
   padding: 35px;
   text-align: center;
   background-color: snow;
@@ -9,5 +10,5 @@ h2, h3 {
 }
 
 body {
-  background-color: powderblue;
+  background-color: #F9E4C6;
 }
