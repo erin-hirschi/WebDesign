@@ -1,4 +1,6 @@
 h1 {
+  fill(54,40,35);
+  textSize(30);
   padding: 35px;
   text-align: center;
   background-color: snow;
