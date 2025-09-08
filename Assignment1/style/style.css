@@ -3,7 +3,7 @@ h1 {
   padding: 35px;
   text-align: center;
   background-color: #F9E4C6;
-  border: 10px inset;
+  border: 10px ridge;
 }
 
 h2, h3 {
