@@ -2,7 +2,7 @@ h1 {
   color: #322824;
   padding: 35px;
   text-align: center;
-  font-size: 80px;
+  font-size: x-large;
   font-family: Garamond;
   background-color: #F9E4C6;
   border: 10px ridge;
@@ -10,7 +10,7 @@ h1 {
 
 h2 {
   text-align: center;
-  font-size: 50px;
+  font-size: large;
   font-family: Georgia;
 }
 
@@ -20,6 +20,6 @@ body {
   color: #322824;
   background-color: #F9E4C6;
   text-align: center;
-  font-size: 25px;
+  font-size: medium;
   font-family: Georgia;
 }
