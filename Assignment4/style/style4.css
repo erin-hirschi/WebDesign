@@ -15,7 +15,7 @@ h2 {
   font-family: Garamond;
 }
 
-
+.nav-top {
 li {
   display: inline-block;
   margin: 15px;
@@ -26,6 +26,7 @@ a {
   color: #ffffff;
   text-decoration: none;
   font-family: Georgia;
+}
 }
 
 
@@ -171,4 +172,44 @@ blockquote {
   header, .chapter, footer{
     padding: 10px;
   }
+}
+
+.blog-preview {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  max-width: 80%;
+  margin: 80px auto;
+  padding: 20px 40px;
+
+}
+.blog-text{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.date{
+  text-align: left;
+  margin: 0;
+}
+
+.post-title{
+  text-align: left;
+  font-size: 35px;
+  font-family: Garamond;
+  margin: 0;
+}
+
+.post-preview{
+  text-align: left;
+  margin: 0;
+}
+
+.read-more{
+  text-align: left;
+  text-decoration: underline;
+  font-weight: bold;
+  color: #322824;
 }
