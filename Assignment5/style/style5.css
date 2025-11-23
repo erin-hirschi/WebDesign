@@ -1,0 +1,239 @@
+h1 {
+  color: #322824;
+  padding: 35px;
+  text-align: center;
+  font-size: 45px;
+  font-family: Garamond;
+  background-color: #f9e0b5;
+  border: 12px, double, #b89058;
+  border-radius: 30px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 35px;
+  font-family: Garamond;
+}
+
+.nav-top {
+li {
+  display: inline-block;
+  margin: 15px;
+}
+a {
+  font-size: 25px;
+  padding: 8px;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Georgia;
+}
+}
+
+
+body {
+  max-width: 80%;
+  margin: 0 auto;
+  color: #322824;
+  background-color: #000000;
+  text-align: center;
+  font-size: 20px;
+  font-family: Georgia;
+}
+
+header {
+    padding: 35px;
+    text-align: center;
+    background-color: #ffd190;
+}
+
+.chapter {
+  max-width: 30%;
+  margin: 0 auto;
+  background-color: #f9e0b5;
+  border: 12px, double, #b89058;
+  border-radius: 30px;
+  padding: 5px;
+  text-align: center;
+  font-size: 20px;
+  font-family: Georgia;
+  }
+  
+
+  form {
+    background-color: #f9f7f1;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px soild #ccc;
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  fieldset {
+    border: none;
+    padding: 0;
+  }
+
+  legend{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  input[type="text"]
+  input[type="email"]
+  input[type="radio"]
+  input[type="checkbox"]
+
+  input[type="text"]
+    input[type="email"]
+    select{
+      width: 100%;
+      margin: 0 auto;
+      padding: 8px;
+      margin-top: 5px;
+      font-size: 1rem;
+      border: 1px solid #aaa;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+  button {border: 2px solid #7a564f}
+button: :hover {
+  background-color: #7a564f;
+  color: white;
+}
+
+button{
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 6px;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+label {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+
+.oswald-<uniquifier> {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+blockquote {
+  font-family: Oswald;
+  font-weight: bold;
+  text-shadow: 1.5px 1.5px #a19f99;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+  row-gap: 10px;
+  column-gap: 10px;
+
+}
+
+.gallery img {
+  width: 30%;
+  height: auto;
+  box-shadow: 5px 5px #767061;
+}
+
+
+
+@media (max-width: 600px){
+  body {
+    font-size: 15px;
+  }
+
+  li {
+    display: block;
+    margin: 10px;
+  }
+
+  nav {
+    text-align: center;
+  }
+
+  header, .chapter, footer{
+    padding: 10px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1024px){
+  body {
+    font-size: 15px;
+  }
+
+  li {
+    display: block;
+    margin: 10px;
+  }
+
+  nav {
+    text-align: center;
+  }
+
+  header, .chapter, footer{
+    padding: 10px;
+  }
+}
+
+.blog-preview {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  max-width: 80%;
+  margin: 80px auto;
+  padding: 20px 40px;
+
+}
+.blog-text{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.date{
+  text-align: left;
+  margin: 0;
+}
+
+.post-title{
+  text-align: left;
+  font-size: 35px;
+  font-family: Garamond;
+  margin: 0;
+}
+
+.post-preview{
+  text-align: left;
+  margin: 0;
+}
+
+.read-more{
+  text-align: left;
+  text-decoration: underline;
+  font-weight: bold;
+  color: #322824;
+}
+
+a:focus, button:focus, input:focus {
+  outline: 2px solid #4a90e2;
+  outline-offset: 2px;
+}
